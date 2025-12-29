@@ -10,22 +10,71 @@ from TTS.api import TTS
 
 # Define your three categories
 cat_1 = [
-    "Category one, item one",
-    "Category one, item two",
-    "Category one, item three"
+    "gun",
+    "handgun",
+    "rifle",
+    "shotgun",
+    "pointing a firearm",
+    "knife",
+    "large blade",
+    "machete",
+    "sword",
+    "axe",
+    "raised baseball bat",
+    "crowbar",
+    "metal pipe",
+    "hammer raised overhead",
+    "screwdriver aimed forward",
+    "I’m going to kill you",
+    "I will shoot you",
+    "I have a gun",
+    "reaching into waistband after threat",
+    "charging toward officer",
+    "vehicle accelerating toward officer",
+    "attempted gun grab",
+    "improvised explosive device",
+    "firebomb",
+    "Molotov cocktail",
+    "strangulation attempt",
+    "choking from behind",
+    "multiple attackers rushing"
 ]
+
 
 cat_2 = [
-    "Category two, item one",
-    "Category two, item two",
-    "Category two, item three"
+    "clenched fists",
+    "aggressive yelling",
+    "verbal threats",
+    "advancing while yelling",
+    "shoving",
+    "pushing",
+    "swinging fists",
+    "attempted punch",
+    "grabbing arm",
+    "throwing small objects",
+    "spitting",
+    "hostile posturing",
+    "intoxicated aggression",
+    "cornering behavior",
+    "shoulder-checking",
+    "removing shirt to fight",
+    "crowding personal space aggressively"
 ]
 
+
 cat_3 = [
-    "Category three, item one",
-    "Category three, item two",
-    "Category three, item three"
+    "cell phone",
+    "wallet",
+    "keys",
+    "water bottle",
+    "backpack",
+    "sunglasses",
+    "book",
+    "laptop",
+    "I don’t understand",
+    "I’m just walking home"
 ]
+
 
 OUTPUT_DIR = Path("audio_files")
 OUTPUT_DIR.mkdir(exist_ok=True)
